@@ -60,20 +60,40 @@ namespace mobileApp
             string[] strLabel =
             {
 
-                "take a 1",
-                "take a 2",
-                "do 3",
-                "take a 4",
-                "take  5",
-                "take a 6",
-                "take  7",
-                "do 8",
-                "take a 9",
-                "take a 10",
+                "Do 5 sit ups",
+                "Do 10 jumping jacks",
+                "do 3 sit ups",
+                "Do 5 push ups",
+                "Do 17 squats",
+                "Do 6 high knees",
+                "Do 7 high Knees",
+                "Do side plank for 20 seconds",
+                "Do 15 sit ups",
+                "Do side plank for 40 seconds",
+                "Do 10 crunches",
+                "Do 3 squats",
+                "Do side plank for 120 seconds",
+                "Do 2 sit ups",
+                "Do 14 high knees",
+                "Do 6 high knees",
+                "Do 2 high Knees",
+                "Do side plank for 20 seconds",
+                "Do 11 sit ups",
+                "Do side plank for 40 seconds",
+                "Do 8 crunches",
+                "Do 8 squats",
+                "Do 8 lunges",
+                "Do side plank for 60 seconds",
+                "Do 2 crunches",
+                "Do 3 squats",
+                "Do 4 lunges",
+                "Do 16 high knees",
+                "Do 20 high Knees",
+                "Do side plank for 200 seconds",
 
             };
             Random r = new Random();
-            int iSelect = r.Next(0, 10);
+            int iSelect = r.Next(0, 30);
             task.Text = strLabel[iSelect];
         }
 
@@ -85,11 +105,17 @@ namespace mobileApp
             {
 
                 "Player 1",
+                "Player 1.",
                 "Player 2",
+                "Player 2.",
+                "Player one",
+                "Player two",
+                "player 1",
+                "player 2",
 
             };
             Random n = new Random();
-            int iSelect = n.Next(0, 2);
+            int iSelect = n.Next(0, 8);
             next.Text = strLabel[iSelect];
         }
 
