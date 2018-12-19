@@ -24,7 +24,7 @@ namespace mobileApp
         private void image1()
         {
             var assembly = typeof(MainPage);
-            string filename = "mobileApp.Images.Small-mario.png";
+            string filename = "mobileApp.Images.mainPic.png";
             imageMain.Source = ImageSource.FromResource(filename, assembly);
         }
 
