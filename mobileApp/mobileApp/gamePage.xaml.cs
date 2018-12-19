@@ -15,11 +15,24 @@ namespace mobileApp
 		public gamePage ()
 		{
 			InitializeComponent ();
+            image1();
+            image2();
             player1Name.Text = twoPlayer.player1;
             player2Name.Text = twoPlayer.player2;
         }
 
-        
+        private void image1()
+        {
+            var assembly = typeof(gamePage);
+            string filename = "mobileApp.Images.1playerImage.png";
+            imageMain.Source = ImageSource.FromResource(filename, assembly);
+        }
+        private void image2()
+        {
+            var assembly = typeof(gamePage);
+            string filename = "mobileApp.Images.taskImage.png";
+            imageMain1.Source = ImageSource.FromResource(filename, assembly);
+        }
         private void button_yes_Clicked(object sender, EventArgs e)
         {
             //CHANGES THE LABEL yesORno TO THE TEXT BELOW:

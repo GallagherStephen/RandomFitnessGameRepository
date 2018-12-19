@@ -9,12 +9,12 @@
             
             <Label VerticalOptions="Center" 
                    HorizontalOptions="CenterAndExpand"
-                   Text="Welcome to the Game page!" 
+                   Text="Welcome to the Get Fit Game page!" 
                    TextColor="White"/>
 
             <Label VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand"
-                   Text="Please carry out the task Given to stay within the game when you colour is shown!" 
+                   Text="Please carry out the tasks given below once pressing the task button to start getting fit!" 
                    TextColor="White"/>
 
 
@@ -32,12 +32,32 @@
                    Text="" 
                    TextColor="White"/>
 
-            <Label  VerticalOptions="Center"
+            <Image x:Name="imageMain" 
+                   HeightRequest="50"
+                   WidthRequest="50"  >
+                    </Image>
+                    
+                    <Label VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Turn:" 
+                   TextColor="White"/>
+                    
+                    <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
                     x:Name="next" Text="" 
                     TextColor="White"/>
 
-            <Label  VerticalOptions="Center"
+                    <Image x:Name="imageMain1" 
+                   HeightRequest="50"
+                   WidthRequest="50"  >
+                    </Image>
+
+                    <Label VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Task:" 
+                   TextColor="White"/>
+                    
+                    <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
                     x:Name="task" Text="" 
                     TextColor="White"/>

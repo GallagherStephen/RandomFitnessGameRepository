@@ -16,6 +16,7 @@
     <None Remove="Images\MainImage.png" />
     <None Remove="Images\mainPic.png" />
     <None Remove="Images\Small-mario.png" />
+    <None Remove="Images\taskImage.png" />
     <None Remove="Orange.jpg" />
     <None Remove="pink.jpg" />
     <None Remove="red.png" />
@@ -31,6 +32,7 @@
     <EmbeddedResource Include="Images\pink.jpg" />
     <EmbeddedResource Include="Images\red.png" />
     <EmbeddedResource Include="Images\Small-mario.png" />
+    <EmbeddedResource Include="Images\taskImage.png" />
   </ItemGroup>
 
   <ItemGroup>
