@@ -19,8 +19,30 @@ namespace mobileApp
         public ThreePlayer ()
 		{
 			InitializeComponent ();
-		}
+            image1();
+            image2();
+            image3();
+        }
 
+        private void image1()
+        {
+            var assembly = typeof(twoPlayer);
+            string filename = "mobileApp.Images.1playerImage.png";
+            imageMain1.Source = ImageSource.FromResource(filename, assembly);
+        }
+
+        private void image2()
+        {
+            var assembly = typeof(twoPlayer);
+            string filename2 = "mobileApp.Images.1playerImage.png";
+            imageMain2.Source = ImageSource.FromResource(filename2, assembly);
+        }
+        private void image3()
+        {
+            var assembly = typeof(twoPlayer);
+            string filename3 = "mobileApp.Images.1playerImage.png";
+            imageMain3.Source = ImageSource.FromResource(filename3, assembly);
+        }
         //BELOW SENDING PAGE (THREEPLAYER) TO GAME PAGE USING BUTTON
         private void buttonClickThis_Clicked(object sender, EventArgs e)
         {

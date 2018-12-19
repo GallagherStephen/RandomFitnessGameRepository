@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\1playerImage.png" />
     <None Remove="Images\imageMain.png" />
     <None Remove="Images\Small-mario.png" />
     <None Remove="Orange.jpg" />
@@ -18,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\1playerImage.png" />
     <EmbeddedResource Include="Images\imageMain.png" />
     <EmbeddedResource Include="Images\Orange.jpg" />
     <EmbeddedResource Include="Images\pink.jpg" />

@@ -16,7 +16,13 @@
                     HorizontalOptions="CenterAndExpand"
                     Text="Enter Player One Name Below"
                     TextColor="White"/>
-            
+
+            <Image x:Name="imageMain" 
+               HeightRequest="150"
+               WidthRequest="150"  >
+            </Image>
+
+
             <Entry x:Name="NameEntry" Placeholder="Name1"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
@@ -28,7 +34,14 @@
                     HorizontalOptions="CenterAndExpand"
                     Text="Enter Player Two Name Below"
                     TextColor="White"/>
-            
+
+            <Image x:Name="imageMain2" 
+               HeightRequest="150"
+               WidthRequest="150"  >
+            </Image>
+
+
+
             <Entry x:Name="NameEntry2" Placeholder="Name"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"

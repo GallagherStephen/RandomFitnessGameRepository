@@ -18,7 +18,23 @@ namespace mobileApp
 		public twoPlayer ()
 		{
 			InitializeComponent ();
+            image1();
+            image2();
 		}
+        private void image1()
+        {
+            var assembly = typeof(twoPlayer);
+            string filename = "mobileApp.Images.1playerImage.png";
+            imageMain.Source = ImageSource.FromResource(filename, assembly);
+        }
+
+        private void image2()
+        {
+            var assembly = typeof(twoPlayer);
+            string filename2 = "mobileApp.Images.1playerImage.png";
+            imageMain2.Source = ImageSource.FromResource(filename2, assembly);
+        }
+
 
         //BELOW SENDING PAGE (TWOPLAYER) TO GAME PAGE USING BUTTON
         private void buttonClickThis_Clicked(object sender, EventArgs e)
