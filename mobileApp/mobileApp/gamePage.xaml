@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileApp.gamePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                
+            
+        
+        <StackLayout BackgroundColor="DarkBlue">
+            
+            <Label VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Welcome to the Game page!" 
+                   TextColor="White"/>
+
+            <Label VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Please carry out the task Given to stay within the game when you colour is shown!" 
+                   TextColor="White"/>
+
+
+            <Label 
+                    x:Name="player1Name"
+                VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="" 
+                   TextColor="White"/>
+
+            <Label 
+                x:Name="player2Name"
+                VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="" 
+                   TextColor="White"/>
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="next" Text="" 
+                    TextColor="White"/>
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="task" Text="" 
+                    TextColor="White"/>
+
+            <Image VerticalOptions="Center" 
+                   HorizontalOptions="CenterAndExpand"
+                   x:Name="starterImage"
+                   Source="mobileapp.Orange.jpg"
+                   WidthRequest="50"
+                   HeightRequest="50"
+                   Margin="0.1,0.1,0.1,0.1"/>
+
+            <!--<Image x:Name="mainImage" Aspect="AspectFit">
+            </Image>-->
+
+
+            <Image x:Name="pictureFilename" Aspect="AspectFit"
+               HorizontalOptions="Start" Margin="0,0,0,50">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                          NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Click Button below to Determine whos Next!"
+                    TextColor="White"/>
+
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_next"
+                Text="Next Player!"
+                Style="{StaticResource normalButton}"
+                Clicked="Button_next_Clicked"/>
+            
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Click Button below to Recieve Next Task!"
+                    TextColor="White"/>
+            
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_task"
+                Text="TASK!"
+                Style="{StaticResource normalButton}"
+                Clicked="button_task_Clicked"/>
+
+            <Label VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Was the task Completed?"
+                   TextColor="White"/>
+           
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_yes"
+                Text="YES"
+                Style="{StaticResource normalButton}"
+                Clicked="button_yes_Clicked"/>
+
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_no"
+                Text="NO"
+                Style="{StaticResource normalButton}"
+                Clicked="button_no_Clicked"/>
+            </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

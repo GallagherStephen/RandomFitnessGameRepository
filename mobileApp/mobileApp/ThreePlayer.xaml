@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileApp.ThreePlayer">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DarkBlue">
+            
+            <Label Text="You have selected three players!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="White"/>
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Enter Player One Name Below"
+                    TextColor="White"/>
+
+            <Entry x:Name="NameEntry" Placeholder="Name"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               Text=""
+               TextColor="{StaticResource blueColor }"
+               />
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Enter Player Two Name Below"
+                    TextColor="White"/>
+            
+            <Entry x:Name="NameEntry2" Placeholder="Name"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Text=""
+                TextColor="{StaticResource blueColor }"
+               />
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Enter Player Three Name Below"
+                    TextColor="White"/>
+            
+            <Entry x:Name="NameEntry3" Placeholder="Name"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Text=""
+                TextColor="{StaticResource blueColor }"
+               />
+
+            <Button x:Name="buttonClickThis"
+                Text="Next"
+                Style="{StaticResource normalButton}"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="buttonClickThis_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:mobileApp"
+             x:Class="mobileApp.MainPage"
+             BackgroundImage="mobileApp.Images.pink.png">
+             
+
+    <StackLayout BackgroundColor="DarkBlue">
+        
+        <!-- Place new controls here -->
+        <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="Welcome to The Game!"
+               FontSize="Large"
+               FontFamily="Times New Roman"
+               TextColor="White"/>
+
+        <Image x:Name="imageMain" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+        </Image>
+        
+        <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="Please select below the number of players"
+               TextColor="White"/>
+
+        <Button VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="button1"
+                Text="2 players"
+                Style="{StaticResource normalButton}"
+                Clicked="button1_Clicked"/>
+
+        <Button VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="button2"
+                Text="3 players"
+                Style="{StaticResource normalButton}"
+                Clicked="button2_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
+
