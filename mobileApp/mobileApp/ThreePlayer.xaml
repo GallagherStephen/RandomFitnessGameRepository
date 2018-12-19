@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="mobileApp.ThreePlayer">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout BackgroundColor="DarkBlue">
             
             <Label Text="You have selected three players!"
@@ -68,5 +69,6 @@
                 Clicked="buttonClickThis_Clicked"/>
             
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
