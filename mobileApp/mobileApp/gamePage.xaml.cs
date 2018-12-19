@@ -22,20 +22,20 @@ namespace mobileApp
         
         private void button_yes_Clicked(object sender, EventArgs e)
         {
-            //SEND TO CONGRADULATIONS U COMPLETED YOUR TASK! 
+            //CHANGES THE LABEL yesORno TO THE TEXT BELOW:
             yesORno.Text = "Congradulations you completed your task";
 
         }
 
         private void button_no_Clicked(object sender, EventArgs e)
         {
-            //SEND TO YOU DIDNT COMPLETE TASK BETTER LUCK NEXT TIME!
+            //CHANGES THE LABEL yesORno TO THE TEXT BELOW:
             yesORno.Text = "Sorry you did not complete task please try again";
             
         }
 
        private void Button_refresh_Clicked(object sender, EventArgs e)
-        {
+        {   //CHANGES THE LABEL yesORno TO THE TEXT BELOW:
             yesORno.Text = "?";
         }
         private void button_task_Clicked(object sender, EventArgs e)
