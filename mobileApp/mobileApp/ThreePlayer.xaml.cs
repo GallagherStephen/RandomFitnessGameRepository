@@ -46,11 +46,11 @@ namespace mobileApp
         //BELOW SENDING PAGE (THREEPLAYER) TO GAME PAGE USING BUTTON
         private void buttonClickThis_Clicked(object sender, EventArgs e)
         {
-            player1 = "player 1:"+NameEntry.Text; //sends player 1 name to page gamepage
-            player2 = "player 2:"+NameEntry2.Text; //sends player 2 name to page gamepage
-            player3 = "player 3:"+NameEntry3.Text; //sends player 3 name to page gamepage
+            player1 = "player 1:"+NameEntry.Text; //sends player 1 name to page gamepageforthree
+            player2 = "player 2:"+NameEntry2.Text; //sends player 2 name to page gamepageforthree
+            player3 = "player 3:"+NameEntry3.Text; //sends player 3 name to page gamepageforthree
 
-            Navigation.PushAsync(new gamePage());
+            Navigation.PushAsync(new gamePageForThree());
         }
     }
 }
