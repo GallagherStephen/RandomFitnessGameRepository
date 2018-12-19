@@ -17,7 +17,7 @@
 
             <Label VerticalOptions="Center"
                    HorizontalOptions="CenterAndExpand"
-                   Text="Please carry out the task Given to stay within the game when you colour is shown" 
+                   Text="Please carry out the task Given to stay within the game when you colour is shown!" 
                    TextColor="White"/>
 
 
