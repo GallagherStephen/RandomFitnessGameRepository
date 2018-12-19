@@ -14,10 +14,6 @@ namespace mobileApp
         {
             InitializeComponent();
             image1();
-
-            //string startImage = "mobileApp.Images.imageMain.png";
-            //startImage.Source = ImageSource.FromResource("startImage.assembly");
-            
         }
 
         //========================================================================
