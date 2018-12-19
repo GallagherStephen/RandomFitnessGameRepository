@@ -93,6 +93,9 @@ namespace mobileApp
             next.Text = strLabel[iSelect];
         }
 
-        
+        private void Button_home_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }

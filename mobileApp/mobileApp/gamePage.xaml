@@ -129,8 +129,18 @@
                 Style="{StaticResource normalButton}"
                 Clicked="Button_refresh_Clicked"/>
 
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Click Button below to go back to Home Screen!"
+                    TextColor="White"/>
 
-
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_home"
+                Text="Refresh"
+                Style="{StaticResource normalButton}"
+                Clicked="Button_home_Clicked"/>
+                    
                 </StackLayout>
             </ScrollView>
         </StackLayout>
