@@ -5,10 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <ScrollView>
-                
-            
-        
-        <StackLayout BackgroundColor="DarkBlue">
+                <StackLayout BackgroundColor="DarkBlue">
             
             <Label VerticalOptions="Center" 
                    HorizontalOptions="CenterAndExpand"
