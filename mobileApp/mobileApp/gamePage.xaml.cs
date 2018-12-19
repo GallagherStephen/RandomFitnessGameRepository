@@ -50,6 +50,8 @@ namespace mobileApp
        private void Button_refresh_Clicked(object sender, EventArgs e)
         {   //CHANGES THE LABEL yesORno TO THE TEXT BELOW:
             yesORno.Text = "?";
+            task.Text = "?";
+            next.Text = "?";
         }
         private void button_task_Clicked(object sender, EventArgs e)
         {

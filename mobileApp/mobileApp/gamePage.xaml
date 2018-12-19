@@ -44,7 +44,7 @@
                     
                     <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
-                    x:Name="next" Text="" 
+                    x:Name="next" Text="?" 
                     TextColor="White"/>
 
                     <Image x:Name="imageMain1" 
@@ -59,7 +59,7 @@
                     
                     <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
-                    x:Name="task" Text="" 
+                    x:Name="task" Text="?" 
                     TextColor="White"/>
 
             <Image VerticalOptions="Center" 
