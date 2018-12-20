@@ -60,7 +60,12 @@ namespace mobileApp
         {
             Navigation.PushAsync(new RulesAndInfo());
         }
-        
+
+        private void Oneplayer_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new oneplayer());
+        }
+
         //======================================================================
     }
 }

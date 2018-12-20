@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileApp.oneplayer">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="DarkBlue">
+
+            <Label Text="You have selected one player !"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="White"/>
+
+            <Label  VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Enter Player One Name Below"
+                    TextColor="White"/>
+
+            <Image x:Name="imageMain" 
+               HeightRequest="150"
+               WidthRequest="150"  >
+            </Image>
+
+
+            <Entry x:Name="NameEntry" Placeholder="Name1"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               Text=""
+               TextColor="{StaticResource blueColor }"
+               />
+            
+            <Button x:Name="buttonClickThis"
+                Text="Next"
+                Style="{StaticResource normalButton}"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="buttonClickThis_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

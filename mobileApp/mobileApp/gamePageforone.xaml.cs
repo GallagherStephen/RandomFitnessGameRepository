@@ -10,25 +10,22 @@ using Xamarin.Forms.Xaml;
 namespace mobileApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class gamePageForThree : ContentPage
+	public partial class gamePageforone : ContentPage
 	{
-		public gamePageForThree ()
+		public gamePageforone ()
 		{
 			InitializeComponent ();
             image1();
             image2();
-            player1Name.Text = ThreePlayer.player1;
-            player2Name.Text = ThreePlayer.player2; //links players name with input to label on page gamepagefor three
-            player3Name.Text = ThreePlayer.player3;
-
+            player1Name.Text = oneplayer.player1; //links the player one name to the label text on oneplayer page
         }
-        private void image1()
+        private void image1()  //function to add image
         {
             var assembly = typeof(gamePage);
-            string filename = "mobileApp.Images.1playerImage.png";
+            string filename = "mobileApp.Images.1playerImage.png";             //saving image as a string variable
             imageMain.Source = ImageSource.FromResource(filename, assembly);
         }
-        private void image2()
+        private void image2() //function to add image
         {
             var assembly = typeof(gamePage);
             string filename = "mobileApp.Images.taskImage.png";
@@ -52,7 +49,6 @@ namespace mobileApp
         {   //CHANGES THE LABEL yesORno TO THE TEXT BELOW:
             yesORno.Text = "?";
             task.Text = "?";
-            next.Text = "?";
         }
         private void button_task_Clicked(object sender, EventArgs e)
         {
@@ -97,37 +93,10 @@ namespace mobileApp
             int iSelect = r.Next(0, 30);
             task.Text = strLabel[iSelect];
         }
-
-        private void Button_next_Clicked(object sender, EventArgs e)
-        {
-            //generate random player from list below
-
-            string[] strLabel =
-            {
-
-                "Player 1",
-                "Player 1.",
-                "Player 2",
-                "Player 2.",
-                "Player one",
-                "Player two",
-                "player 1",
-                "player 2",
-                "Player 3",
-                "Player 3.",
-                "player 3",
-                "player three",
-
-
-            };
-            Random n = new Random();
-            int iSelect = n.Next(0, 12);
-            next.Text = strLabel[iSelect];
-        }
-
+        
         private void Button_home_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new MainPage()); //sends user to main page
         }
     }
 }

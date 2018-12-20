@@ -20,7 +20,13 @@
                HeightRequest="300"
                WidthRequest="300"  >
         </Image>
-        
+
+
+        <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="for more Information press button below"
+               TextColor="White"/>
+
         <Button VerticalOptions="Center"
                 HorizontalOptions="CenterAndExpand"
                 x:Name="Information"
@@ -44,18 +50,25 @@
                HorizontalOptions="CenterAndExpand"
                Text="Please select below the number of players"
                TextColor="White"/>
+        
+        <Button VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="oneplayer"
+                Text="1 player"
+                Style="{StaticResource normalButton}"
+                Clicked="Oneplayer_Clicked"/>
 
         <Button VerticalOptions="Center"
                 HorizontalOptions="CenterAndExpand"
                 x:Name="button1"
-                Text="2 players"
+                Text="2 player"
                 Style="{StaticResource normalButton}"
                 Clicked="button1_Clicked"/>
 
         <Button VerticalOptions="Center"
                 HorizontalOptions="CenterAndExpand"
                 x:Name="button2"
-                Text="3 players"
+                Text="3 player"
                 Style="{StaticResource normalButton}"
                 Clicked="button2_Clicked"/>
 

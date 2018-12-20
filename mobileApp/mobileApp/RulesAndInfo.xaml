@@ -19,7 +19,7 @@
 
             <Label VerticalOptions="Center"
                HorizontalOptions="CenterAndExpand"
-               Text="This game is created to allow its users to complete tasks given at random from a list of Excercises.This game which has no end as its sole purpose is for the players benifit.This game which is garunteed to get the user fitter and feeling better.The game is between two and three players.This game which is pointed towards groups as working out with a friend can help with motivating eachother."
+               Text="This game is created to allow its users to complete tasks given at random from a list of Excercises.This game which has no end as its sole purpose is for the players benifit.This game which is garunteed to get the user fitter and feeling better.The game is created for up to 3 players.This allows solo or group work outs for self and group motivation"
                TextColor="White"/>
             
             <Button VerticalOptions="Center" 
