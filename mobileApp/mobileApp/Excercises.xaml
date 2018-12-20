@@ -96,7 +96,7 @@
                 <Button VerticalOptions="Center" 
                     HorizontalOptions="CenterAndExpand"
                     x:Name="button_home"
-                Text="YES"
+                Text="Home"
                 Style="{StaticResource normalButton}"
                 Clicked="Button_home_Clicked"/>
             </StackLayout>

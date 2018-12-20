@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileApp.RulesAndInfo">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="DarkBlue">
+            
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="Welcome to The Get Fit Information Page!"
+               FontSize="Large"
+               FontFamily="Times New Roman"
+               TextColor="White"/>
+
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="Information:"
+               TextColor="White"/>
+
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="This game is created to allow its users to complete tasks given at random from a list of Excercises.This game which has no end as its sole purpose is for the players benifit.This game which is garunteed to get the user fitter and feeling better.The game is between two and three players.This game which is pointed towards groups as working out with a friend can help with motivating eachother."
+               TextColor="White"/>
+            
+            <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_home"
+                Text="Home"
+                Style="{StaticResource normalButton}"
+                Clicked="Button_home_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

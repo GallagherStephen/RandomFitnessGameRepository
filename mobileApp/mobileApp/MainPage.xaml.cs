@@ -55,6 +55,12 @@ namespace mobileApp
         {
             Navigation.PushAsync(new Excercises());
         }
+
+        private void Information_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RulesAndInfo());
+        }
+        
         //======================================================================
     }
 }

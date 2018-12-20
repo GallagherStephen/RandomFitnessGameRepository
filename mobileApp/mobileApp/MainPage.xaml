@@ -21,6 +21,13 @@
                WidthRequest="300"  >
         </Image>
         
+        <Button VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="Information"
+                Text="Information"
+                Style="{StaticResource normalButton}"
+                Clicked="Information_Clicked"/>
+        
         <Label VerticalOptions="Center"
                HorizontalOptions="CenterAndExpand"
                Text="Please Have a look at excercises before playing"
