@@ -11,11 +11,19 @@
 
   <ItemGroup>
     <None Remove="Images\1playerImage.png" />
+    <None Remove="Images\crunches.jpg" />
+    <None Remove="Images\HighKnees.jpg" />
     <None Remove="Images\imageMain.png" />
+    <None Remove="Images\jumpingjacks.jpg" />
+    <None Remove="Images\lunges.jpg" />
     <None Remove="Images\MainImage.jpg" />
     <None Remove="Images\MainImage.png" />
     <None Remove="Images\mainPic.png" />
+    <None Remove="Images\pushups.jpg" />
+    <None Remove="Images\sideplank.jpg" />
+    <None Remove="Images\situps.jpg" />
     <None Remove="Images\Small-mario.png" />
+    <None Remove="Images\squats.jpg" />
     <None Remove="Images\taskImage.png" />
     <None Remove="Orange.jpg" />
     <None Remove="pink.jpg" />
@@ -24,14 +32,21 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Images\1playerImage.png" />
+    <EmbeddedResource Include="Images\crunches.jpg" />
+    <EmbeddedResource Include="Images\HighKnees.jpg" />
     <EmbeddedResource Include="Images\imageMain.png" />
+    <EmbeddedResource Include="Images\jumpingjacks.jpg" />
+    <EmbeddedResource Include="Images\lunges.jpg" />
     <EmbeddedResource Include="Images\MainImage.jpg" />
     <EmbeddedResource Include="Images\MainImage.png" />
     <EmbeddedResource Include="Images\mainPic.png" />
     <EmbeddedResource Include="Images\Orange.jpg" />
     <EmbeddedResource Include="Images\pink.jpg" />
+    <EmbeddedResource Include="Images\pushups.jpg" />
     <EmbeddedResource Include="Images\red.png" />
+    <EmbeddedResource Include="Images\situps.jpg" />
     <EmbeddedResource Include="Images\Small-mario.png" />
+    <EmbeddedResource Include="Images\squats.jpg" />
     <EmbeddedResource Include="Images\taskImage.png" />
   </ItemGroup>
 
@@ -40,6 +55,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Images\sideplank.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Excercises.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="gamePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

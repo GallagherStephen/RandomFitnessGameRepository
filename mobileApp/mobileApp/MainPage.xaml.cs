@@ -50,6 +50,11 @@ namespace mobileApp
         {
             throw new NotImplementedException();
         }
+
+        private void Excercisesbutton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Excercises());
+        }
         //======================================================================
     }
 }

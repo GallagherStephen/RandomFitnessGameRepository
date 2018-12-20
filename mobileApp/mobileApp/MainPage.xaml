@@ -23,6 +23,18 @@
         
         <Label VerticalOptions="Center"
                HorizontalOptions="CenterAndExpand"
+               Text="Please Have a look at excercises before playing"
+               TextColor="White"/>
+
+        <Button VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                x:Name="Excercisesbutton"
+                Text="Excercises"
+                Style="{StaticResource normalButton}"
+                Clicked="Excercisesbutton_Clicked"/>
+
+        <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
                Text="Please select below the number of players"
                TextColor="White"/>
 

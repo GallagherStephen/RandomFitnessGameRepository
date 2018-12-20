@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mobileApp.Excercises">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="DarkBlue">
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="Welcome to The Exercises Page!"
+               FontSize="Large"
+               FontFamily="Times New Roman"
+               TextColor="White"/>
+
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="push ups"
+               TextColor="White"/>
+
+            <Image x:Name="pushup1" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="jumping jacks"
+               TextColor="White"/>
+
+            <Image x:Name="jumpingjack2" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="crunches"
+               TextColor="White"/>
+
+            <Image x:Name="crunches3" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="sit ups"
+               TextColor="White"/>
+
+            <Image x:Name="situps4" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="lunges"
+               TextColor="White"/>
+
+            <Image x:Name="lunges5" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="high Knees"
+               TextColor="White"/>
+
+            <Image x:Name="highknees6" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="side Plank"
+               TextColor="White"/>
+
+            <Image x:Name="sideplank7" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+            <Label VerticalOptions="Center"
+               HorizontalOptions="CenterAndExpand"
+               Text="squats"
+               TextColor="White"/>
+
+            <Image x:Name="squats8" 
+               HeightRequest="300"
+               WidthRequest="300"  >
+            </Image>
+            <!--============================================================-->
+                <Button VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand"
+                    x:Name="button_home"
+                Text="YES"
+                Style="{StaticResource normalButton}"
+                Clicked="Button_home_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
