@@ -9,7 +9,9 @@
 
                 <Label VerticalOptions="Center" 
                    HorizontalOptions="CenterAndExpand"
-                   Text="Welcome to the Get Fit Game page!" 
+                   Text="Welcome to the Get Fit Game page!"
+                   FontSize="Large"
+                    FontFamily="Times New Roman"
                    TextColor="White"/>
 
             <Label VerticalOptions="Center"
@@ -30,10 +32,17 @@
                    HorizontalOptions="CenterAndExpand"
                    Text="" 
                    TextColor="White"/>
+                   
+            <Label 
+                x:Name="player3Name"
+                VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="" 
+                   TextColor="White"/>
 
-            <Image x:Name="imageMain" 
-                   HeightRequest="50"
-                   WidthRequest="50"  >
+                    <Image x:Name="imageMain" 
+                   HeightRequest="150"
+                   WidthRequest="150"  >
             </Image>
 
             <Label VerticalOptions="Center"
@@ -47,8 +56,8 @@
                     TextColor="White"/>
 
             <Image x:Name="imageMain1" 
-                   HeightRequest="50"
-                   WidthRequest="50"  >
+                   HeightRequest="150"
+                   WidthRequest="150"  >
             </Image>
 
             <Label VerticalOptions="Center"
@@ -56,23 +65,12 @@
                    Text="Task:" 
                    TextColor="White"/>
 
-            <Label  VerticalOptions="Center"
+                    <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
                     x:Name="task" Text="?" 
                     TextColor="White"/>
 
-            <Image VerticalOptions="Center" 
-                   HorizontalOptions="CenterAndExpand"
-                   x:Name="starterImage"
-                   Source="mobileapp.Orange.jpg"
-                   WidthRequest="50"
-                   HeightRequest="50"
-                   Margin="0.1,0.1,0.1,0.1"/>
-
-            <!--<Image x:Name="mainImage" Aspect="AspectFit">
-            </Image>-->
-
-            <Label  VerticalOptions="Center"
+                    <Label  VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand"
                     Text="Click Button below to Determine whos Next!"
                     TextColor="White"/>
@@ -136,7 +134,7 @@
             <Button VerticalOptions="Center" 
                     HorizontalOptions="CenterAndExpand"
                     x:Name="button_home"
-                Text="Refresh"
+                Text="Home"
                 Style="{StaticResource normalButton}"
                 Clicked="Button_home_Clicked"/>
             

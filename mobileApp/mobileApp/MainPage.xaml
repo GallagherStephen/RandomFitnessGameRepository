@@ -11,7 +11,7 @@
         <!-- Place new controls here -->
         <Label VerticalOptions="Center"
                HorizontalOptions="CenterAndExpand"
-               Text="Welcome to The Game!"
+               Text="Welcome to The Get Fit Game!"
                FontSize="Large"
                FontFamily="Times New Roman"
                TextColor="White"/>

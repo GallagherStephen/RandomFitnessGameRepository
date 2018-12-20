@@ -17,8 +17,11 @@ namespace mobileApp
 			InitializeComponent ();
             image1();
             image2();
+            player1Name.Text = ThreePlayer.player1;
+            player2Name.Text = ThreePlayer.player2;
+            player3Name.Text = ThreePlayer.player3;
 
-		}
+        }
         private void image1()
         {
             var assembly = typeof(gamePage);
